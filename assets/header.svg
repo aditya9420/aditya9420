@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f0c29"/><stop offset="0.55" stop-color="#241f55"/><stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.8"/><stop offset="0.5" stop-color="#6d28d9" stop-opacity="0.15"/><stop offset="1" stop-color="#6366f1" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="o1"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.75"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="o2"><stop offset="0" stop-color="#4f46e5" stop-opacity="0.7"/><stop offset="1" stop-color="#4f46e5" stop-opacity="0"/></radialGradient>
+    <radialGradient id="o3"><stop offset="0" stop-color="#c084fc" stop-opacity="0.5"/><stop offset="1" stop-color="#c084fc" stop-opacity="0"/></radialGradient>
+    <clipPath id="panel"><rect x="50" y="46" width="900" height="208" rx="26"/></clipPath>
+  </defs>
+  <rect width="1000" height="300" rx="28" fill="url(#bg)"/>
+  <circle cx="190" cy="80" r="150" fill="url(#o1)"><animate attributeName="cx" values="190;260;190" dur="9s" repeatCount="indefinite"/><animate attributeName="cy" values="80;130;80" dur="9s" repeatCount="indefinite"/></circle>
+  <circle cx="820" cy="230" r="170" fill="url(#o2)"><animate attributeName="cx" values="820;740;820" dur="11s" repeatCount="indefinite"/><animate attributeName="cy" values="230;170;230" dur="11s" repeatCount="indefinite"/></circle>
+  <circle cx="560" cy="40" r="110" fill="url(#o3)"><animate attributeName="cx" values="560;640;560" dur="13s" repeatCount="indefinite"/></circle>
+  <rect x="50" y="46" width="900" height="208" rx="26" fill="#ffffff" fill-opacity="0.05" stroke="url(#rim)" stroke-width="1.5"/>
+  <g clip-path="url(#panel)"><rect x="-200" y="40" width="160" height="220" fill="url(#sweep)" transform="skewX(-18)"><animate attributeName="x" values="-300;1100" dur="6s" repeatCount="indefinite"/></rect></g>
+  <g fill="#c4b5fd">
+    <circle cx="120" cy="210" r="2"><animate attributeName="cy" values="230;60;230" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="8s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="230" r="1.6"><animate attributeName="cy" values="240;70;240" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="10s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="220" r="2"><animate attributeName="cy" values="235;65;235" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="9s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="215" r="1.6"><animate attributeName="cy" values="240;75;240" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="12s" repeatCount="indefinite"/></circle>
+  </g>
+  <text x="500" y="108" text-anchor="middle" font-size="15" letter-spacing="6" fill="#a78bfa" font-weight="600">HELLO, I'M<animate attributeName="opacity" from="0" to="1" dur="1s" fill="freeze"/></text>
+  <text x="500" y="168" text-anchor="middle" font-size="58" font-weight="700" letter-spacing="3" fill="url(#name)">ADITYA CHAVAN<animate attributeName="opacity" from="0" to="1" dur="1.4s" fill="freeze"/></text>
+  <text x="500" y="204" text-anchor="middle" font-size="19" fill="#c4b5fd" letter-spacing="1.5">Computer Science Student  ·  Developer  ·  Builder<animate attributeName="opacity" from="0" to="1" dur="2s" fill="freeze"/></text>
+  <text x="500" y="232" text-anchor="middle" font-size="13" fill="#8b8bb8" letter-spacing="3">PHP   ·   JAVASCRIPT   ·   PYTHON   ·   LEARNING IN PUBLIC</text>
+</svg>
